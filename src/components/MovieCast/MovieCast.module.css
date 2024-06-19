@@ -1,0 +1,25 @@
+.cast {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  width: 300px;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.castList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.castImage {
+  height: 300px;
+  width: 200px;
+}
