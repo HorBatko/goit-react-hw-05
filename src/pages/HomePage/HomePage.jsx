@@ -29,7 +29,7 @@ export default function HomePage() {
 
   return (
     <>
-      <h1 className={css.text}>Trending today</h1>
+      <h1 className={css.text}>Cinema</h1>
       {isLoader && <Loader />}
       {movies.length > 0 && <MovieList movies={movies} />}
       {isError && <ErrorMessage />}
